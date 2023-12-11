@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+
+table {
+    width: 100%;
+    border: collapse;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+#menu_user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.pagination{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    margin: -20px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+
+}
+textarea{
+   
+    margin-bottom: 10px;
+    
+}
+#añadir{
+    width: 10%;
+    margin: 10px;
+}
+strong{
+    color:red;
+    font-size: 0.7rem;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+#registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    
+
+}
+th {
+    font-size: 1.2em;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: red;
+
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    margin-right: 10px;
+}
+
+form {
+    
+    margin-left: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 20px;
+    width: 40%;
+    
+}
+
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+
+}
+
+input[type="submit"] {
+    background-color: red;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
