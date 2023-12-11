@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_URL', 'http://localhost/Blog/BlogFutbolAmericano/');
+define('BASE_URL', 'http://localhost/Blog_MiguelHurtado/BlogFutbolAmericano/');
 
 define('CONTROLLER_DEFAULT', 'RegistroController');
 
